@@ -32,3 +32,13 @@ variable "HTTP_HTTPS_SG_ID" {
   description = "HTTP_HTTPS_SG_ID"
   type        = string
 }
+
+variable "key_name" {
+  description = "key_name"
+  type        = string
+}
+
+variable "desired_capacity" {
+  description = "The desired capacity of the Auto Scaling group"
+  type        = number
+}
